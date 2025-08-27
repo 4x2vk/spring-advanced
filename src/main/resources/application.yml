@@ -1,16 +1,6 @@
 spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/expert
-    username: root
-    password: admin
-    driver-class-name: com.mysql.cj.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        show_sql: true
-        formate_sql: true
+  profiles:
+    active: dev
 jwt:
   secret:
     key: 0ydHRc8EG9P/RJDjjPbE8dezJ0IXc8z61Y7hDZRJKkkrDW81g9FPKb0XdU5Knun3kIBEabqtzGnsNSqbufv79g==
