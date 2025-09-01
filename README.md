@@ -1,3 +1,4 @@
+![Spring Framework](https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg)
 # Spring Advanced
 A backend service built with Spring Boot, designed to manage authentication, task operations, and user interactions.
 
@@ -38,7 +39,7 @@ This repository was initialized and debugged from a broken state. The applicatio
 
 - **Early Return Logic**: Prevented unnecessary password encoding by checking for duplicate emails first.
 - **Simplified Conditionals**: Removed nested `else` blocks for better readability in `WeatherClient`.
-- **Validation Shift**: Moved password validation logic from service layer to DTO using annotations like `@Size`, `@Pattern`, and `@NotBlank`.
+- **Validation Shift**: Moved password validation logic from service layer to DTO using annotations like `@Size`, `@Pattern` and `@NotBlank`.
 
 ### Performance Optimization
 
