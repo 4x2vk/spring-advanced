@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: dev
+jwt:
+  secret:
+    key: 0ydHRc8EG9P/RJDjjPbE8dezJ0IXc8z61Y7hDZRJKkkrDW81g9FPKb0XdU5Knun3kIBEabqtzGnsNSqbufv79g==
